@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Document</title>
+</head>
+<body class="bg-gray-100 dark:bg-gray-800">
+    <div class="top-0 py-1 lg:py-2 w-full bg-transparent lg:relative z-50 dark:bg-gray-900">
+        <nav class="z-10 sticky top-0 left-0 right-0 max-w-4xl xl:max-w-5xl mx-auto px-5 py-2.5 lg:border-none lg:py-4">
+            <div class="flex items-center justify-between">
+                <button>
+                    <div class="flex items-center space-x-2">
+                        <h1 class="text-black dark:text-white font-bold text-3xl">Unique Electronics</h1>
+                    </div>
+                </button>
+                <div class="hidden lg:block">
+                    <ul class="flex space-x-10 text-base font-bold  text-black/60 dark:text-white">
+                        <li
+                            class="text-1xl hover:underline hover:underline-offset-4 hover:w-fit transition-all duration-100 ease-linear">
+                            <a href="index.html">Home Page</a>
+                        </li> 
+                    </ul>
+                </div>
+                <div class="hidden lg:flex lg:items-center gap-x-2">
+                    <button class="flex items-center text-black dark:text-white justify-center px-6 py-2.5 font-semibold">Cart</button>
+                    <button class="flex items-center justify-center rounded-md bg-[#4A3BFF] text-white px-6 py-2.5 font-semibold hover:shadow-lg hover:drop-shadow transition duration-200">Wishlist</button>
+                </div>
+                <div class="flex items-center justify-center lg:hidden">
+                    <button class="focus:outline-none text-slate-200 dark:text-white"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 20 20" aria-hidden="true" class="text-2xl text-slate-800 dark:text-white focus:outline-none active:scale-110 active:text-red-500" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg></button>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="bg-gray-100 dark:bg-gray-800 py-25">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row -mx-3">
+                <div class="md:flex-1 px-4">
+                    <div class="h-[460px] rounded-lg bg-gray-300 dark:bg-gray-700 mb-4">
+                        <img class="w-full h-full object-cover" src="Microwave (1).jfif" alt="Product Image">
+                    </div>
+                    <div class="flex -mx-2 mb-4">
+                        <div class="w-1/2 px-2">
+                            <button class="w-full bg-gray-900 dark:bg-gray-600 text-white py-2 px-4 rounded-full font-bold hover:bg-gray-800 dark:hover:bg-gray-700">Add to Cart</button>
+                        </div>
+                        <div class="w-1/2 px-2">
+                            <button class="w-full bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-white py-2 px-4 rounded-full font-bold hover:bg-gray-300 dark:hover:bg-gray-600">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="md:flex-1 px-4">
+                    <h2 class="text-2xl font-bold text-gray-800 dark:text-white mb-2">Microwave</h2>
+                    <p class="text-gray-600 dark:text-gray-300 text-sm mb-4">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed
+                        ante justo. Integer euismod libero id mauris malesuada tincidunt.
+                    </p>
+                    <div class="flex mb-4">
+                        <div class="mr-4">
+                            <span class="font-bold text-gray-700 dark:text-gray-300">Price:</span>
+                            <span class="text-gray-600 dark:text-gray-300">$29.99</span>
+                        </div>
+                        <div>
+                            <span class="font-bold text-gray-700 dark:text-gray-300">Availability:</span>
+                            <span class="text-gray-600 dark:text-gray-300">In Stock</span>
+                        </div>
+                    </div>
+
+                    <div class="mb-4">
+                        <span class="font-bold text-gray-700 dark:text-gray-300">Select Size:</span>
+                        <div class="flex items-center mt-2">
+                            <button class="bg-gray-300 dark:bg-gray-700 text-gray-700 dark:text-white py-2 px-4 rounded-full font-bold mr-2 hover:bg-gray-400 dark:hover:bg-gray-600">Small</button>
+                            <button class="bg-gray-300 dark:bg-gray-700 text-gray-700 dark:text-white py-2 px-4 rounded-full font-bold mr-2 hover:bg-gray-400 dark:hover:bg-gray-600">Medium</button>
+                            <button class="bg-gray-300 dark:bg-gray-700 text-gray-700 dark:text-white py-2 px-4 rounded-full font-bold mr-2 hover:bg-gray-400 dark:hover:bg-gray-600">Large</button>
+
+                        </div>
+                    </div>
+                    <div>
+                        <span class="font-bold text-gray-700 dark:text-gray-300">Product Description:</span>
+                        <p class="text-gray-600 dark:text-gray-300 text-sm mt-2">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                            sed ante justo. Integer euismod libero id mauris malesuada tincidunt. Vivamus commodo nulla ut
+                            lorem rhoncus aliquet. Duis dapibus augue vel ipsum pretium, et venenatis sem blandit. Quisque
+                            ut erat vitae nisi ultrices placerat non eget velit. Integer ornare mi sed ipsum lacinia, non
+                            sagittis mauris blandit. Morbi fermentum libero vel nisl suscipit, nec tincidunt mi consectetur.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+
